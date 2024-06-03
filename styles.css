@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    /* Mix of red and black */
+    color: black;
+    /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    /* Reddish shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#task-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
